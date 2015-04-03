@@ -16,11 +16,11 @@ Pod::Spec.new do |s|
   s.homepage     = "http://EXAMPLE/TestYouzanLib"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
-  s.license      = "MIT (example)"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  # s.license      = "MIT (example)"
+  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
   s.author             = { "tudou" => "tudou@qima-inc.com" }
-  s.platform     = :ios, “7.0”
+  s.platform     = :ios, "7.0"
 
   s.source       = { :git => "https://github.com/face1203/TestYouzanLib.git", :tag => "0.0.1" }
 
